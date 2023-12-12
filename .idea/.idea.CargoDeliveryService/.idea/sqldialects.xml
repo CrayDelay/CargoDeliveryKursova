@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Drivers.Db/Security/Permissions.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Companies.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Drivers.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Expenses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Inspections.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Photos.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Repairs.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/Trucks.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.Db/dbo/Tables/__EFMigrationsHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.JWT/Security/Permissions.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.JWT/dbo/Tables/Accounts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.JWT/dbo/Tables/RefreshToken.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Drivers.JWT/dbo/Tables/__EFMigrationsHistory.sql" dialect="TSQL" />
+  </component>
+</project>

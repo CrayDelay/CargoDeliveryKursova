@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DriversManagement</name>
+    </assembly>
+    <members>
+        <member name="M:DriversManagement.Controllers.v1.CompaniesController.GetCompanies(DriversManagement.Domain.Companies.Dtos.CompanyParametersDto)">
+            <summary>
+            Gets a list of all Companies.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.CompaniesController.GetAllCompanies">
+            <summary>
+            Gets a list of all Companies.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.CompaniesController.GetCompany(System.Guid)">
+            <summary>
+            Gets a single Company by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.CompaniesController.AddCompany(DriversManagement.Domain.Companies.Dtos.CompanyForCreationDto)">
+            <summary>
+            Creates a new Company record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.CompaniesController.UpdateCompany(System.Guid,DriversManagement.Domain.Companies.Dtos.CompanyForUpdateDto)">
+            <summary>
+            Updates an entire existing Company.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.CompaniesController.DeleteCompany(System.Guid)">
+            <summary>
+            Deletes an existing Company record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.DriversController.GetDrivers(DriversManagement.Domain.Drivers.Dtos.DriverParametersDto)">
+            <summary>
+            Gets a list of all Drivers.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.DriversController.GetAllDrivers">
+            <summary>
+            Gets a list of all Drivers.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.DriversController.GetDriver(System.Guid)">
+            <summary>
+            Gets a single Driver by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.DriversController.AddDriver(DriversManagement.Domain.Drivers.Dtos.DriverForCreationDto)">
+            <summary>
+            Creates a new Driver record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.DriversController.UpdateDriver(System.Guid,DriversManagement.Domain.Drivers.Dtos.DriverForUpdateDto)">
+            <summary>
+            Updates an entire existing Driver.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.DriversController.DeleteDriver(System.Guid)">
+            <summary>
+            Deletes an existing Driver record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.ExpencesController.GetExpences(DriversManagement.Domain.Expences.Dtos.ExpenceParametersDto)">
+            <summary>
+            Gets a list of all Expences.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.ExpencesController.GetAllExpences">
+            <summary>
+            Gets a list of all Expences.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.ExpencesController.GetExpence(System.Guid)">
+            <summary>
+            Gets a single Expence by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.ExpencesController.AddExpence(DriversManagement.Domain.Expences.Dtos.ExpenceForCreationDto)">
+            <summary>
+            Creates a new Expence record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.ExpencesController.UpdateExpence(System.Guid,DriversManagement.Domain.Expences.Dtos.ExpenceForUpdateDto)">
+            <summary>
+            Updates an entire existing Expence.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.ExpencesController.DeleteExpence(System.Guid)">
+            <summary>
+            Deletes an existing Expence record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.InspectionsController.GetInspections(DriversManagement.Domain.Inspections.Dtos.InspectionParametersDto)">
+            <summary>
+            Gets a list of all Inspections.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.InspectionsController.GetAllInspections">
+            <summary>
+            Gets a list of all Inspections.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.InspectionsController.GetInspection(System.Guid)">
+            <summary>
+            Gets a single Inspection by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.InspectionsController.AddInspection(DriversManagement.Domain.Inspections.Dtos.InspectionForCreationDto)">
+            <summary>
+            Creates a new Inspection record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.InspectionsController.UpdateInspection(System.Guid,DriversManagement.Domain.Inspections.Dtos.InspectionForUpdateDto)">
+            <summary>
+            Updates an entire existing Inspection.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.InspectionsController.DeleteInspection(System.Guid)">
+            <summary>
+            Deletes an existing Inspection record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PermissionsController.GetPermissions">
+            <summary>
+            Gets a list of all available permissions.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PermissionsController.GetAssignedPermissions">
+            <summary>
+            Gets a list of the current user's assigned permissions.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PhotosController.GetPhotos(DriversManagement.Domain.Photos.Dtos.PhotoParametersDto)">
+            <summary>
+            Gets a list of all Photos.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PhotosController.GetAllPhotos">
+            <summary>
+            Gets a list of all Photos.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PhotosController.GetPhoto(System.Guid)">
+            <summary>
+            Gets a single Photo by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PhotosController.AddPhoto(DriversManagement.Domain.Photos.Dtos.PhotoForCreationDto)">
+            <summary>
+            Creates a new Photo record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PhotosController.UpdatePhoto(System.Guid,DriversManagement.Domain.Photos.Dtos.PhotoForUpdateDto)">
+            <summary>
+            Updates an entire existing Photo.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.PhotosController.DeletePhoto(System.Guid)">
+            <summary>
+            Deletes an existing Photo record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RepairsController.GetRepairs(DriversManagement.Domain.Repairs.Dtos.RepairParametersDto)">
+            <summary>
+            Gets a list of all Repairs.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RepairsController.GetAllRepairs">
+            <summary>
+            Gets a list of all Repairs.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RepairsController.GetRepair(System.Guid)">
+            <summary>
+            Gets a single Repair by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RepairsController.AddRepair(DriversManagement.Domain.Repairs.Dtos.RepairForCreationDto)">
+            <summary>
+            Creates a new Repair record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RepairsController.UpdateRepair(System.Guid,DriversManagement.Domain.Repairs.Dtos.RepairForUpdateDto)">
+            <summary>
+            Updates an entire existing Repair.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RepairsController.DeleteRepair(System.Guid)">
+            <summary>
+            Deletes an existing Repair record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RolePermissionsController.GetRolePermissions(DriversManagement.Domain.RolePermissions.Dtos.RolePermissionParametersDto)">
+            <summary>
+            Gets a list of all RolePermissions.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RolePermissionsController.GetRolePermission(System.Guid)">
+            <summary>
+            Gets a single RolePermission by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RolePermissionsController.AddRolePermission(DriversManagement.Domain.RolePermissions.Dtos.RolePermissionForCreationDto)">
+            <summary>
+            Creates a new RolePermission record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RolePermissionsController.UpdateRolePermission(System.Guid,DriversManagement.Domain.RolePermissions.Dtos.RolePermissionForUpdateDto)">
+            <summary>
+            Updates an entire existing RolePermission.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RolePermissionsController.DeleteRolePermission(System.Guid)">
+            <summary>
+            Deletes an existing RolePermission record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.RolesController.GetRoles">
+            <summary>
+            Gets a list of all available roles.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.TrucksController.GetTrucks(DriversManagement.Domain.Trucks.Dtos.TruckParametersDto)">
+            <summary>
+            Gets a list of all Trucks.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.TrucksController.GetAllTrucks">
+            <summary>
+            Gets a list of all Trucks.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.TrucksController.GetTruck(System.Guid)">
+            <summary>
+            Gets a single Truck by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.TrucksController.AddTruck(DriversManagement.Domain.Trucks.Dtos.TruckForCreationDto)">
+            <summary>
+            Creates a new Truck record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.TrucksController.UpdateTruck(System.Guid,DriversManagement.Domain.Trucks.Dtos.TruckForUpdateDto)">
+            <summary>
+            Updates an entire existing Truck.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.TrucksController.DeleteTruck(System.Guid)">
+            <summary>
+            Deletes an existing Truck record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.AddRole(System.Guid,System.String)">
+            <summary>
+            Adds a new role to a user.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.RemoveRole(System.Guid,System.String)">
+            <summary>
+            Removes a role from a User
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.GetUsers(DriversManagement.Domain.Users.Dtos.UserParametersDto)">
+            <summary>
+            Gets a list of all Users.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.GetUser(System.Guid)">
+            <summary>
+            Gets a single User by ID.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.AddUser(DriversManagement.Domain.Users.Dtos.UserForCreationDto)">
+            <summary>
+            Creates a new User record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.UpdateUser(System.Guid,DriversManagement.Domain.Users.Dtos.UserForUpdateDto)">
+            <summary>
+            Updates an entire existing User.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Controllers.v1.UsersController.DeleteUser(System.Guid)">
+            <summary>
+            Deletes an existing User record.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.CompanyConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Companies.Company})">
+            <summary>
+            The database configuration for Companies. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.DriverConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Drivers.Driver})">
+            <summary>
+            The database configuration for Drivers. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.ExpenceConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Expences.Expence})">
+            <summary>
+            The database configuration for Expences. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.InspectionConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Inspections.Inspection})">
+            <summary>
+            The database configuration for Inspections. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.PhotoConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Photos.Photo})">
+            <summary>
+            The database configuration for Photos. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.RepairConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Repairs.Repair})">
+            <summary>
+            The database configuration for Repairs. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.RolePermissionConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.RolePermissions.RolePermission})">
+            <summary>
+            The database configuration for RolePermissions. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.TruckConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Trucks.Truck})">
+            <summary>
+            The database configuration for Trucks. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.UserConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Users.User})">
+            <summary>
+            The database configuration for Users. 
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Databases.EntityConfigurations.UserRoleConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{DriversManagement.Domain.Users.UserRole})">
+            <summary>
+            The database configuration for UserRoles. 
+            </summary>
+        </member>
+        <member name="P:DriversManagement.Domain.Addresses.Address.Line1">
+            <summary>
+            Address line 1 (e.g., street, PO Box, or company name).
+            </summary>
+        </member>
+        <member name="P:DriversManagement.Domain.Addresses.Address.Line2">
+            <summary>
+            Address line 2 (e.g., apartment, suite, unit, or building).
+            </summary>
+        </member>
+        <member name="P:DriversManagement.Domain.Addresses.Address.City">
+            <summary>
+            City, district, suburb, town, or village.
+            </summary>
+        </member>
+        <member name="P:DriversManagement.Domain.Addresses.Address.State">
+            <summary>
+            State, county, province, or region.
+            </summary>
+        </member>
+        <member name="P:DriversManagement.Domain.Addresses.Address.PostalCode">
+            <summary>
+            ZIP or postal code.
+            </summary>
+        </member>
+        <member name="P:DriversManagement.Domain.Addresses.Address.Country">
+            <summary>
+            Two-letter country code <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">(ISO 3166-1 alpha-2)</a>.
+            </summary>
+        </member>
+        <member name="M:DriversManagement.Extensions.Services.WebAppServiceConfiguration.AddBoundaryServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly[])">
+            <summary>
+            Registers all services in the assembly of the given interface.
+            </summary>
+        </member>
+        <member name="T:DriversManagement.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:DriversManagement.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DriversManagement.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DriversManagement.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

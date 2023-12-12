@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "WPFDRIVERS [DEVELOPMENT]": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WPF DRIVERS [PRODUCTION]": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}
